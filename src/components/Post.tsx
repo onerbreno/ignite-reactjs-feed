@@ -25,7 +25,7 @@ export interface PostType {
 }
 
 interface PostProps {
-    post: Post;
+    post: PostType;
 }
 
 export function Post({ post }: PostProps) {
